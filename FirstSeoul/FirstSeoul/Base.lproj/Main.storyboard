@@ -195,7 +195,7 @@
                     <connections>
                         <segue destination="urD-hn-JcW" kind="relationship" relationship="viewControllers" id="deK-9m-17b"/>
                         <segue destination="yfV-XQ-OIM" kind="relationship" relationship="viewControllers" id="53X-1F-umA"/>
-                        <segue destination="KON-A2-qDB" kind="relationship" relationship="viewControllers" id="dc3-lc-kSY"/>
+                        <segue destination="K84-7X-Orv" kind="relationship" relationship="viewControllers" id="IgV-bN-uzF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdJ-16-hKW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -326,7 +326,24 @@
             </objects>
             <point key="canvasLocation" x="3552.8000000000002" y="146.17691154422789"/>
         </scene>
-        <!--1:1 문의 게시판-->
+        <!--마일리지-->
+        <scene sceneID="798-GD-JsX">
+            <objects>
+                <navigationController id="K84-7X-Orv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="마일리지" id="0z2-cT-YEc"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aSV-Ka-rxQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="KON-A2-qDB" kind="relationship" relationship="rootViewController" id="dNt-z5-J2f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ZU-td-ToQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2182" y="1006"/>
+        </scene>
+        <!--마일리지-->
         <scene sceneID="bBB-HX-62m">
             <objects>
                 <tableViewController id="KON-A2-qDB" sceneMemberID="viewController">
@@ -346,14 +363,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="모바일 상품권" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vgp-GY-oma">
-                                                    <rect key="frame" x="95" y="23" width="93" height="20"/>
+                                                    <rect key="frame" x="95" y="24" width="99.5" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="&gt;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wvb-C2-uTU">
-                                                    <rect key="frame" x="348.5" y="23" width="10.5" height="20"/>
+                                                    <rect key="frame" x="348.5" y="24" width="10.5" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -365,9 +382,6 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="cKi-S2-ngw" kind="showDetail" id="pxh-UM-AM2"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="whB-BS-veO" detailTextLabel="SF6-9w-gIP" imageView="Bpe-gO-OXi" rowHeight="65" style="IBUITableViewCellStyleValue1" id="h6o-T0-awr">
                                         <rect key="frame" x="0.0" y="93" width="375" height="65"/>
@@ -377,14 +391,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="현금전환 및 지방세 납부" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="whB-BS-veO">
-                                                    <rect key="frame" x="95" y="23" width="161.5" height="20"/>
+                                                    <rect key="frame" x="95" y="24" width="174" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="&gt;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SF6-9w-gIP">
-                                                    <rect key="frame" x="348.5" y="23" width="10.5" height="20"/>
+                                                    <rect key="frame" x="348.5" y="24" width="10.5" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -405,14 +419,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="사막화방지 나무심기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0R5-ke-auO">
-                                                    <rect key="frame" x="96" y="23" width="137.5" height="20"/>
+                                                    <rect key="frame" x="96" y="25" width="148" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="&gt;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rlk-8R-b6I">
-                                                    <rect key="frame" x="348" y="22" width="11" height="21"/>
+                                                    <rect key="frame" x="348" y="24" width="11" height="18"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="18"/>
                                                     <nil key="textColor"/>
@@ -434,26 +448,11 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="마일리지" id="9Pf-iJ-j5k"/>
-                    <navigationItem key="navigationItem" title="1:1 문의 게시판" id="Aed-e5-Oyp"/>
+                    <navigationItem key="navigationItem" title="마일리지" id="Loc-cp-wLD"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rpd-zL-Sqa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3974" y="893"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="F7Q-St-l0N">
-            <objects>
-                <viewController id="cKi-S2-ngw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SAb-ed-NB6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="sMy-qK-LUf"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pJa-De-f6Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4749" y="844"/>
+            <point key="canvasLocation" x="3199" y="973"/>
         </scene>
     </scenes>
     <resources>
