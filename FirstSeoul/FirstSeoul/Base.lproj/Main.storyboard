@@ -363,14 +363,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="모바일 상품권" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vgp-GY-oma">
-                                                    <rect key="frame" x="95" y="24" width="99.5" height="17"/>
+                                                    <rect key="frame" x="95" y="23" width="93" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="&gt;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wvb-C2-uTU">
-                                                    <rect key="frame" x="348.5" y="24" width="10.5" height="17"/>
+                                                    <rect key="frame" x="348.5" y="23" width="10.5" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -391,14 +391,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="현금전환 및 지방세 납부" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="whB-BS-veO">
-                                                    <rect key="frame" x="95" y="24" width="174" height="17"/>
+                                                    <rect key="frame" x="95" y="23" width="161.5" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="&gt;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SF6-9w-gIP">
-                                                    <rect key="frame" x="348.5" y="24" width="10.5" height="17"/>
+                                                    <rect key="frame" x="348.5" y="23" width="10.5" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -419,14 +419,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="사막화방지 나무심기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0R5-ke-auO">
-                                                    <rect key="frame" x="96" y="25" width="148" height="17"/>
+                                                    <rect key="frame" x="96" y="23" width="137.5" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="&gt;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rlk-8R-b6I">
-                                                    <rect key="frame" x="348" y="24" width="11" height="18"/>
+                                                    <rect key="frame" x="348" y="22" width="11" height="21"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="18"/>
                                                     <nil key="textColor"/>
@@ -452,7 +452,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rpd-zL-Sqa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3199" y="973"/>
+            <point key="canvasLocation" x="3220" y="975"/>
         </scene>
     </scenes>
     <resources>
