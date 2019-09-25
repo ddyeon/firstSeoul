@@ -17,23 +17,10 @@ class MileageController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // 첫 페이지는 네이버로 설정
         self.request(url: "https://driving-mileage.seoul.go.kr/home/mileage/howtomobile.do?menuNo=1016")
     }
     
-    // 이전 페이지로 이동
-    @IBAction func back() {
-        if self.webView.canGoBack {
-            self.webView.goBack()
-        }
-    }
-    
-    // 다음 페이지로 이동
-    @IBAction func forward() {
-        if self.webView.canGoForward {
-            self.webView.goForward()
-        }
-    }
+
     
     // 현재 webView에서 받아온 URL 페이지를 로드한다.
     func request(url: String) {
