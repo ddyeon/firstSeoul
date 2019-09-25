@@ -18,7 +18,7 @@ class MileageController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // 첫 페이지는 네이버로 설정
-        self.request(url: "https://www.naver.com")
+        self.request(url: "https://driving-mileage.seoul.go.kr/home/mileage/howtomobile.do?menuNo=1016")
     }
     
     // 이전 페이지로 이동
