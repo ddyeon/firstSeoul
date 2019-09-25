@@ -383,7 +383,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="prl-ja-UCR" kind="showDetail" id="zI0-MC-SJe"/>
+                                            <segue destination="zXi-nd-Wse" kind="show" id="7A1-si-b3j"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="whB-BS-veO" detailTextLabel="SF6-9w-gIP" imageView="Bpe-gO-OXi" rowHeight="65" style="IBUITableViewCellStyleValue1" id="h6o-T0-awr">
@@ -457,63 +457,47 @@
             </objects>
             <point key="canvasLocation" x="3220" y="975"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="BRs-vK-6YU">
+        <!--Mileage Controller-->
+        <scene sceneID="ByH-LO-7ft">
             <objects>
-                <viewController id="prl-ja-UCR" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wzt-jD-fBt">
+                <viewController id="zXi-nd-Wse" customClass="MileageController" customModule="FirstSeoul" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pwg-GM-agq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbK-fF-B4W">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <outlet property="delegate" destination="prl-ja-UCR" id="c94-Se-e0o"/>
-                                </connections>
-                            </webView>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="rsI-PY-Pa9">
-                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Vgm-Pe-zQc">
+                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mrq-ps-1jj">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <items>
-                                    <barButtonItem title="&lt;" id="VgB-UC-TP3">
-                                        <connections>
-                                            <action selector="goBack" destination="fbK-fF-B4W" id="cVa-vB-bNb"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem title="&gt;" id="IXH-tH-KuM">
-                                        <connections>
-                                            <action selector="goForward" destination="fbK-fF-B4W" id="XLx-zN-pGI"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WaX-bB-Aa2">
+                                <rect key="frame" x="0.0" y="120" width="375" height="498"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="rsI-PY-Pa9" firstAttribute="leading" secondItem="0dK-VZ-0Y5" secondAttribute="leading" id="2ZO-cB-FBL"/>
-                            <constraint firstItem="mrq-ps-1jj" firstAttribute="bottom" secondItem="0dK-VZ-0Y5" secondAttribute="bottom" id="6Ce-6B-hPt"/>
-                            <constraint firstItem="fbK-fF-B4W" firstAttribute="top" secondItem="Wzt-jD-fBt" secondAttribute="top" id="GEa-UR-NJJ"/>
-                            <constraint firstItem="fbK-fF-B4W" firstAttribute="leading" secondItem="0dK-VZ-0Y5" secondAttribute="leading" id="IxC-uI-b5d"/>
-                            <constraint firstItem="0dK-VZ-0Y5" firstAttribute="bottom" secondItem="fbK-fF-B4W" secondAttribute="bottom" id="J57-Dg-qF4"/>
-                            <constraint firstItem="mrq-ps-1jj" firstAttribute="leading" secondItem="0dK-VZ-0Y5" secondAttribute="leading" id="Lpp-jd-I0o"/>
-                            <constraint firstItem="0dK-VZ-0Y5" firstAttribute="trailing" secondItem="mrq-ps-1jj" secondAttribute="trailing" id="Uik-Ba-vtq"/>
-                            <constraint firstItem="0dK-VZ-0Y5" firstAttribute="trailing" secondItem="fbK-fF-B4W" secondAttribute="trailing" id="Vis-3y-liH"/>
-                            <constraint firstItem="rsI-PY-Pa9" firstAttribute="top" secondItem="Wzt-jD-fBt" secondAttribute="top" constant="20" id="jNt-N3-ggZ"/>
-                            <constraint firstItem="rsI-PY-Pa9" firstAttribute="trailing" secondItem="0dK-VZ-0Y5" secondAttribute="trailing" id="nxZ-Nm-0Gi"/>
+                            <constraint firstItem="eA0-qo-XRn" firstAttribute="bottom" secondItem="WaX-bB-Aa2" secondAttribute="bottom" id="78Q-yh-Gsg"/>
+                            <constraint firstItem="Vgm-Pe-zQc" firstAttribute="leading" secondItem="eA0-qo-XRn" secondAttribute="leading" id="FaV-wU-BEa"/>
+                            <constraint firstItem="WaX-bB-Aa2" firstAttribute="top" secondItem="Vgm-Pe-zQc" secondAttribute="bottom" id="Qmh-4Q-udx"/>
+                            <constraint firstItem="Vgm-Pe-zQc" firstAttribute="top" secondItem="eA0-qo-XRn" secondAttribute="top" id="Vc6-HA-2oe"/>
+                            <constraint firstItem="eA0-qo-XRn" firstAttribute="trailing" secondItem="WaX-bB-Aa2" secondAttribute="trailing" id="jAs-7G-WLX"/>
+                            <constraint firstItem="Vgm-Pe-zQc" firstAttribute="trailing" secondItem="eA0-qo-XRn" secondAttribute="trailing" id="rGv-3D-HrL"/>
+                            <constraint firstItem="WaX-bB-Aa2" firstAttribute="leading" secondItem="eA0-qo-XRn" secondAttribute="leading" id="rc5-a7-E9G"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="0dK-VZ-0Y5"/>
+                        <viewLayoutGuide key="safeArea" id="eA0-qo-XRn"/>
                     </view>
                     <connections>
-                        <outlet property="view" destination="fbK-fF-B4W" id="1Zk-Z9-xwM"/>
+                        <outlet property="searchBar" destination="Vgm-Pe-zQc" id="VbF-2K-pAg"/>
+                        <outlet property="webView" destination="WaX-bB-Aa2" id="sDC-no-W1u"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iGU-ts-Jgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DAr-qR-9Xc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3989.5999999999999" y="978.26086956521749"/>
+            <point key="canvasLocation" x="4193" y="992"/>
         </scene>
     </scenes>
     <resources>
