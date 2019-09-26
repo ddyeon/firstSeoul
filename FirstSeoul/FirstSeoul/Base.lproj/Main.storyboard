@@ -413,6 +413,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pd2-bJ-4ig" kind="show" id="hom-Lv-P6w"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="0R5-ke-auO" detailTextLabel="rlk-8R-b6I" imageView="DbS-lr-hm8" rowHeight="65" style="IBUITableViewCellStyleValue1" id="vVC-16-Clu">
                                         <rect key="frame" x="0.0" y="158" width="375" height="65"/>
@@ -498,6 +501,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAr-qR-9Xc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4193" y="992"/>
+        </scene>
+        <!--Mileage2 Controller-->
+        <scene sceneID="D9y-Xj-xwa">
+            <objects>
+                <viewController id="pd2-bJ-4ig" customClass="Mileage2Controller" customModule="FirstSeoul" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FEl-cr-xGX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cps-Hk-dv1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wik-4B-6Mh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3721" y="1685"/>
         </scene>
     </scenes>
     <resources>
