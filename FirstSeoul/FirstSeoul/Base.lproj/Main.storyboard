@@ -54,10 +54,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="119" translatesAutoresizingMaskIntoConstraints="NO" id="4RW-iA-Itl">
-                                <rect key="frame" x="71" y="387.5" width="233" height="29"/>
+                                <rect key="frame" x="74.5" y="387.5" width="226" height="32"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pER-ML-1FJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="52" height="29"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="32"/>
                                         <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
                                         <color key="tintColor" red="0.1957841937" green="1" blue="0.29138591450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Log In"/>
@@ -67,7 +67,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HxE-en-3vz" colorLabel="IBBuiltInLabel-Green">
-                                        <rect key="frame" x="171" y="0.0" width="62" height="29"/>
+                                        <rect key="frame" x="167" y="0.0" width="59" height="32"/>
                                         <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
                                         <color key="tintColor" red="0.2156862745" green="0.69803921570000005" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Sign up"/>
@@ -111,86 +111,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="3lw-Nr-DNb">
-                                <rect key="frame" x="80" y="100" width="215" height="215"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="3lw-Nr-DNb" secondAttribute="height" multiplier="1:1" id="lcd-2a-jY9"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JCG-PV-Y1r">
-                                <rect key="frame" x="40" y="345" width="295" height="95.5"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="aGz-Sy-lW4">
-                                        <rect key="frame" x="0.0" y="2.5" width="93" height="93"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="aGz-Sy-lW4" secondAttribute="height" multiplier="1:1" id="S1E-S0-8WJ"/>
-                                        </constraints>
-                                    </imageView>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Uk-hW-Tkz">
-                                        <rect key="frame" x="101" y="2.5" width="93" height="93"/>
-                                    </pickerView>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hkb-eO-D4N">
-                                        <rect key="frame" x="202" y="2.5" width="93" height="93"/>
-                                    </pickerView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="Hkb-eO-D4N" firstAttribute="width" secondItem="5Uk-hW-Tkz" secondAttribute="width" id="0qt-3W-CvF"/>
-                                    <constraint firstItem="aGz-Sy-lW4" firstAttribute="height" secondItem="5Uk-hW-Tkz" secondAttribute="height" id="1lT-aG-aJR"/>
-                                    <constraint firstItem="Hkb-eO-D4N" firstAttribute="height" secondItem="5Uk-hW-Tkz" secondAttribute="height" id="jNg-yL-m25"/>
-                                    <constraint firstItem="aGz-Sy-lW4" firstAttribute="width" secondItem="5Uk-hW-Tkz" secondAttribute="width" id="p2W-8p-6VF"/>
-                                </constraints>
-                            </stackView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYP-pW-sLb">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
                                     <navigationItem title="미세빵빵" id="FDq-9u-wcE"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="현재 위치의 미세먼지 지수는" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idl-vq-v8d">
-                                <rect key="frame" x="10" y="470.5" width="203.5" height="17"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="3lw-Nr-DNb">
+                                <rect key="frame" x="80" y="100" width="215" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3lw-Nr-DNb" secondAttribute="height" multiplier="1:1" id="lcd-2a-jY9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= = = = = = = = 현재 위치 설정 = = = = = = = =" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcC-NX-I7d">
+                                <rect key="frame" x="0.0" y="340" width="375" height="20"/>
                                 <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
-                                <color key="textColor" red="0.047288448575284824" green="0.36304501671702188" blue="0.89112071700507611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="143" translatesAutoresizingMaskIntoConstraints="NO" id="xJJ-Ip-oGa">
-                                <rect key="frame" x="50" y="507" width="275" height="17"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="9LC-hl-WBE">
+                                <rect key="frame" x="20" y="380" width="335" height="50"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="나빠요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itm-MN-3ew">
-                                        <rect key="frame" x="0.0" y="0.0" width="90" height="17"/>
-                                        <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="70" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxx-4K-3xC">
-                                        <rect key="frame" x="233" y="0.0" width="42" height="17"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="point" translatesAutoresizingMaskIntoConstraints="NO" id="gE7-gF-Xw2">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="42" id="pdS-QL-VXf"/>
+                                            <constraint firstAttribute="width" constant="50" id="OT8-sE-yDD"/>
+                                            <constraint firstAttribute="height" constant="50" id="jix-Jw-lZm"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    </imageView>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="856-tP-Fub">
+                                        <rect key="frame" x="64" y="0.0" width="125" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="125" id="wmB-lv-3NK"/>
+                                        </constraints>
+                                    </pickerView>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1T1-BU-NB2">
+                                        <rect key="frame" x="203" y="0.0" width="132" height="50"/>
+                                    </pickerView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="3lw-Nr-DNb" firstAttribute="top" secondItem="XuB-Aq-a9o" secondAttribute="top" constant="80" id="1AE-gS-HAv"/>
-                            <constraint firstItem="xJJ-Ip-oGa" firstAttribute="top" secondItem="Idl-vq-v8d" secondAttribute="bottom" constant="19.5" id="1WM-1M-bUU"/>
-                            <constraint firstItem="Idl-vq-v8d" firstAttribute="top" secondItem="JCG-PV-Y1r" secondAttribute="bottom" constant="30" id="24H-oQ-gpG"/>
+                            <constraint firstItem="9LC-hl-WBE" firstAttribute="top" secondItem="BcC-NX-I7d" secondAttribute="bottom" constant="20" id="3BT-NX-HfS"/>
+                            <constraint firstItem="XuB-Aq-a9o" firstAttribute="trailing" secondItem="9LC-hl-WBE" secondAttribute="trailing" constant="20" id="4b9-S1-dHv"/>
                             <constraint firstItem="3lw-Nr-DNb" firstAttribute="leading" secondItem="XuB-Aq-a9o" secondAttribute="leading" constant="80" id="B41-Y9-jOX"/>
-                            <constraint firstItem="JCG-PV-Y1r" firstAttribute="centerX" secondItem="5Qm-u1-lZ6" secondAttribute="centerX" id="BYn-3H-fN2"/>
-                            <constraint firstItem="JCG-PV-Y1r" firstAttribute="top" secondItem="3lw-Nr-DNb" secondAttribute="bottom" constant="30" id="CMo-hJ-Wy1"/>
                             <constraint firstItem="3lw-Nr-DNb" firstAttribute="centerX" secondItem="5Qm-u1-lZ6" secondAttribute="centerX" id="GNw-7r-j78"/>
-                            <constraint firstItem="xJJ-Ip-oGa" firstAttribute="leading" secondItem="XuB-Aq-a9o" secondAttribute="leading" constant="50" id="LuI-TR-44O"/>
-                            <constraint firstItem="JCG-PV-Y1r" firstAttribute="leading" secondItem="XuB-Aq-a9o" secondAttribute="leading" constant="40" id="Nd2-Vl-HuB"/>
+                            <constraint firstItem="XuB-Aq-a9o" firstAttribute="trailing" secondItem="BcC-NX-I7d" secondAttribute="trailing" id="Gjr-CM-nEq"/>
+                            <constraint firstItem="BcC-NX-I7d" firstAttribute="leading" secondItem="XuB-Aq-a9o" secondAttribute="leading" id="TGt-I8-AlW"/>
+                            <constraint firstItem="9LC-hl-WBE" firstAttribute="centerX" secondItem="5Qm-u1-lZ6" secondAttribute="centerX" id="Xht-AH-bLJ"/>
                             <constraint firstItem="tYP-pW-sLb" firstAttribute="leading" secondItem="XuB-Aq-a9o" secondAttribute="leading" id="Y5d-1q-7yu"/>
                             <constraint firstItem="XuB-Aq-a9o" firstAttribute="trailing" secondItem="3lw-Nr-DNb" secondAttribute="trailing" constant="80" id="aCC-wG-jaB"/>
                             <constraint firstItem="tYP-pW-sLb" firstAttribute="top" secondItem="XuB-Aq-a9o" secondAttribute="top" id="ioh-3f-Y6C"/>
-                            <constraint firstItem="xJJ-Ip-oGa" firstAttribute="top" secondItem="5Qm-u1-lZ6" secondAttribute="top" constant="507" id="jfv-ZZ-MgH"/>
+                            <constraint firstItem="9LC-hl-WBE" firstAttribute="leading" secondItem="XuB-Aq-a9o" secondAttribute="leading" constant="20" id="pt9-39-E5T"/>
+                            <constraint firstItem="BcC-NX-I7d" firstAttribute="top" secondItem="3lw-Nr-DNb" secondAttribute="bottom" constant="25" id="vlx-TG-vOx"/>
                             <constraint firstItem="tYP-pW-sLb" firstAttribute="trailing" secondItem="XuB-Aq-a9o" secondAttribute="trailing" id="wSl-F3-fO3"/>
-                            <constraint firstItem="Idl-vq-v8d" firstAttribute="leading" secondItem="XuB-Aq-a9o" secondAttribute="leading" constant="10" id="x47-oV-eNM"/>
-                            <constraint firstItem="XuB-Aq-a9o" firstAttribute="trailing" secondItem="xJJ-Ip-oGa" secondAttribute="trailing" constant="50" id="x81-P4-0M4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XuB-Aq-a9o"/>
                     </view>
@@ -289,16 +264,16 @@
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0nv-Oe-ory">
-                                <rect key="frame" x="10" y="101" width="355" height="67"/>
+                                <rect key="frame" x="10" y="92" width="355" height="70.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="자동차 등록 날짜" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEG-cS-Dav">
-                                        <rect key="frame" x="107" y="0.0" width="141" height="20"/>
+                                        <rect key="frame" x="111.5" y="0.0" width="132.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="InterGTB" family="InterparkGothic" pointSize="20"/>
                                         <color key="textColor" red="0.47509489730956311" green="0.15154636711160382" blue="0.86332803359390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Agz-Mi-51B">
-                                        <rect key="frame" x="105.5" y="35" width="144" height="32"/>
+                                        <rect key="frame" x="107" y="38.5" width="141" height="32"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pmE-3B-LTK">
                                                 <rect key="frame" x="0.0" y="0.0" width="27" height="32"/>
@@ -307,31 +282,31 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="년" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdH-OT-YY9">
-                                                <rect key="frame" x="30" y="0.0" width="16" height="32"/>
+                                                <rect key="frame" x="30" y="0.0" width="15" height="32"/>
                                                 <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7bD-ci-96p">
-                                                <rect key="frame" x="50" y="0.0" width="25" height="32"/>
+                                                <rect key="frame" x="49" y="0.0" width="25" height="32"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="월" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6T2-mt-cUD">
-                                                <rect key="frame" x="79" y="0.0" width="16" height="32"/>
+                                                <rect key="frame" x="78" y="0.0" width="15" height="32"/>
                                                 <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W3t-mg-IPU">
-                                                <rect key="frame" x="99" y="0.0" width="25" height="32"/>
+                                                <rect key="frame" x="97" y="0.0" width="25" height="32"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrC-fq-qRJ">
-                                                <rect key="frame" x="128" y="0.0" width="16" height="32"/>
+                                                <rect key="frame" x="126" y="0.0" width="15" height="32"/>
                                                 <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -341,16 +316,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uFU-be-Jfe">
-                                <rect key="frame" x="30" y="208" width="315" height="70"/>
+                                <rect key="frame" x="30" y="202.5" width="315" height="73.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="누적 주행 거리" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvF-Zm-Dbk">
-                                        <rect key="frame" x="0.0" y="0.0" width="315" height="20"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="23.5"/>
                                         <fontDescription key="fontDescription" name="InterGTB" family="InterparkGothic" pointSize="20"/>
                                         <color key="textColor" red="0.47509489730956311" green="0.15154636711160382" blue="0.86332803359390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dVv-Da-FzR">
-                                        <rect key="frame" x="0.0" y="40" width="315" height="30"/>
+                                        <rect key="frame" x="0.0" y="43.5" width="315" height="30"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7OY-8k-Xdc">
                                                 <rect key="frame" x="0.0" y="0.0" width="269" height="30"/>
@@ -369,7 +344,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHJ-mt-3gg">
-                                <rect key="frame" x="169.5" y="318" width="36" height="31"/>
+                                <rect key="frame" x="171" y="316" width="33" height="35"/>
                                 <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="19"/>
                                 <state key="normal" title="확인"/>
                             </button>
@@ -393,7 +368,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0Ha-fg-1sO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="주행거리" id="aun-8y-XNW"/>
+                    <tabBarItem key="tabBarItem" title="주행거리" selectedImage="car1" id="aun-8y-XNW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hTl-kM-GX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -403,7 +378,7 @@
         <scene sceneID="798-GD-JsX">
             <objects>
                 <navigationController id="K84-7X-Orv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="마일리지" id="0z2-cT-YEc"/>
+                    <tabBarItem key="tabBarItem" title="마일리지" selectedImage="coins" id="0z2-cT-YEc"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aSV-Ka-rxQ">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -436,7 +411,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="모바일 상품권" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vgp-GY-oma">
-                                                    <rect key="frame" x="95" y="26" width="98.5" height="17"/>
+                                                    <rect key="frame" x="95" y="23" width="93" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -467,7 +442,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="현금전환 및 지방세 납부" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="whB-BS-veO">
-                                                    <rect key="frame" x="95" y="26" width="172" height="17"/>
+                                                    <rect key="frame" x="95" y="23" width="161.5" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -498,7 +473,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="사막화방지 나무심기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0R5-ke-auO">
-                                                    <rect key="frame" x="96" y="26" width="146.5" height="17"/>
+                                                    <rect key="frame" x="96" y="23" width="137.5" height="20"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -526,7 +501,7 @@
                             <outlet property="delegate" destination="KON-A2-qDB" id="JBm-GB-Cob"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="마일리지" id="9Pf-iJ-j5k"/>
+                    <tabBarItem key="tabBarItem" title="마일리지" selectedImage="coins" id="9Pf-iJ-j5k"/>
                     <navigationItem key="navigationItem" title="마일리지" id="Loc-cp-wLD"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rpd-zL-Sqa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -620,8 +595,11 @@
     </scenes>
     <resources>
         <image name="car" width="728" height="428"/>
+        <image name="car1" width="24" height="24"/>
         <image name="change" width="64" height="64"/>
+        <image name="coins" width="32" height="32"/>
         <image name="gift-card" width="64" height="64"/>
+        <image name="point" width="512" height="512"/>
         <image name="tree" width="256" height="256"/>
     </resources>
 </document>
