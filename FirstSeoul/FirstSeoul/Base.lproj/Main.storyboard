@@ -509,13 +509,40 @@
                     <view key="view" contentMode="scaleToFill" id="FEl-cr-xGX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="or7-uv-Oqi">
+                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3M-FD-Efr">
+                                <rect key="frame" x="0.0" y="120" width="375" height="498"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cps-Hk-dv1" firstAttribute="trailing" secondItem="or7-uv-Oqi" secondAttribute="trailing" id="14b-Tw-Lnt"/>
+                            <constraint firstItem="or7-uv-Oqi" firstAttribute="leading" secondItem="FEl-cr-xGX" secondAttribute="leading" id="2zL-b5-4lT"/>
+                            <constraint firstItem="or7-uv-Oqi" firstAttribute="top" secondItem="cps-Hk-dv1" secondAttribute="top" id="OPS-nv-ZZj"/>
+                            <constraint firstItem="R3M-FD-Efr" firstAttribute="leading" secondItem="cps-Hk-dv1" secondAttribute="leading" id="RhN-kh-3Ad"/>
+                            <constraint firstItem="R3M-FD-Efr" firstAttribute="trailing" secondItem="cps-Hk-dv1" secondAttribute="trailing" id="skK-mh-91I"/>
+                            <constraint firstItem="R3M-FD-Efr" firstAttribute="top" secondItem="or7-uv-Oqi" secondAttribute="bottom" id="vdC-gG-lij"/>
+                            <constraint firstItem="R3M-FD-Efr" firstAttribute="bottom" secondItem="cps-Hk-dv1" secondAttribute="bottom" id="vtO-L1-zev"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cps-Hk-dv1"/>
                     </view>
+                    <connections>
+                        <outlet property="searchBar" destination="or7-uv-Oqi" id="AVk-fd-V5K"/>
+                        <outlet property="webView" destination="R3M-FD-Efr" id="ZGJ-6H-Uu0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wik-4B-6Mh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3721" y="1685"/>
+            <point key="canvasLocation" x="4193" y="1682"/>
         </scene>
     </scenes>
     <resources>
