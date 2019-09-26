@@ -15,6 +15,7 @@
 		3D6475D1233C5935000237FF /* InterparkGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475CE233C5935000237FF /* InterparkGothicBold.ttf */; };
 		3D6475D2233C5935000237FF /* InterparkGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475CF233C5935000237FF /* InterparkGothicLight.ttf */; };
 		3D6475D4233C5CFD000237FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475D3233C5CFD000237FF /* Assets.xcassets */; };
+		3D6475D6233C7C56000237FF /* firstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475D5233C7C56000237FF /* firstController.swift */; };
 		3D6B50A02334A924009A3407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B509F2334A924009A3407 /* AppDelegate.swift */; };
 		3D6B50A22334A924009A3407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B50A12334A924009A3407 /* ViewController.swift */; };
 		3D6B50A52334A924009A3407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6B50A32334A924009A3407 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		3D6475CE233C5935000237FF /* InterparkGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterparkGothicBold.ttf; path = ../../../../../Users/mini/Downloads/interparkFont_winTTF/InterparkGothicBold.ttf; sourceTree = "<group>"; };
 		3D6475CF233C5935000237FF /* InterparkGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterparkGothicLight.ttf; path = ../../../../../Users/mini/Downloads/interparkFont_winTTF/InterparkGothicLight.ttf; sourceTree = "<group>"; };
 		3D6475D3233C5CFD000237FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trashes/501/Assets.xcassets; sourceTree = "<group>"; };
+		3D6475D5233C7C56000237FF /* firstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstController.swift; sourceTree = "<group>"; };
 		3D6B509C2334A924009A3407 /* FirstSeoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSeoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6B509F2334A924009A3407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D6B50A12334A924009A3407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				3D6475C1233B339E000237FF /* MileageController.swift */,
 				3D6475C5233B6ADA000237FF /* Milege2Controller.swift */,
 				3D6475C7233C4036000237FF /* SignUpController.swift */,
+				3D6475D5233C7C56000237FF /* firstController.swift */,
 			);
 			path = FirstSeoul;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				3D6475C2233B339E000237FF /* MileageController.swift in Sources */,
 				3D6475C8233C4036000237FF /* SignUpController.swift in Sources */,
 				3D6B50A22334A924009A3407 /* ViewController.swift in Sources */,
+				3D6475D6233C7C56000237FF /* firstController.swift in Sources */,
 				3D6475C6233B6ADA000237FF /* Milege2Controller.swift in Sources */,
 				9B180B002338A49D005787F9 /* SeoulInfo.swift in Sources */,
 				3D6B50A02334A924009A3407 /* AppDelegate.swift in Sources */,
