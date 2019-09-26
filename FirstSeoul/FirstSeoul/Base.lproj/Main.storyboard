@@ -32,18 +32,18 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="G4s-3k-BNI">
                                 <rect key="frame" x="10" y="299.5" width="355" height="68"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="아이디" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xqJ-Ak-9m6">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xqJ-Ak-9m6">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="30"/>
                                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="비밀번호" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8q7-6w-cJx">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8q7-6w-cJx">
                                         <rect key="frame" x="0.0" y="38" width="355" height="30"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
                             </stackView>
@@ -55,7 +55,8 @@
                                         <color key="tintColor" red="0.1957841937" green="1" blue="0.29138591450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Log In"/>
                                         <connections>
-                                            <segue destination="0le-xB-AUk" kind="show" id="J4I-6V-A1r"/>
+                                            <action selector="login" destination="2nr-od-c6x" eventType="touchUpInside" id="I3Y-zp-qvk"/>
+                                            <segue destination="0le-xB-AUk" kind="show" id="20g-q3-AhZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HxE-en-3vz" colorLabel="IBBuiltInLabel-Green">
@@ -84,6 +85,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tyq-8J-oWH"/>
                     </view>
+                    <connections>
+                        <outlet property="idField" destination="xqJ-Ak-9m6" id="Ntz-jC-yRc"/>
+                        <outlet property="loginButton" destination="pER-ML-1FJ" id="zRQ-72-RPb"/>
+                        <outlet property="pwField" destination="8q7-6w-cJx" id="NgB-k3-IkR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Naf-RN-01D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
