@@ -125,7 +125,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= = = = = = = = 현재 위치 설정 = = = = = = = =" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcC-NX-I7d">
                                 <rect key="frame" x="0.0" y="340" width="375" height="17"/>
-                                <fontDescription key="fontDescription" name="InterGTM" family="InterparkGothic" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="InterGTB" family="InterparkGothic" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="9LC-hl-WBE">

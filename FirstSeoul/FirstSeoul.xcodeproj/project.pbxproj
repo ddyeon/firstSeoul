@@ -11,9 +11,6 @@
 		3D6475C6233B6ADA000237FF /* Milege2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475C5233B6ADA000237FF /* Milege2Controller.swift */; };
 		3D6475C8233C4036000237FF /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475C7233C4036000237FF /* SignUpController.swift */; };
 		3D6475CA233C5806000237FF /* DXWRbtB-KSCpc-EUC-H.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475C9233C57FB000237FF /* DXWRbtB-KSCpc-EUC-H.ttf */; };
-		3D6475D0233C5935000237FF /* InterparkGothicMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475CD233C5934000237FF /* InterparkGothicMedium.ttf */; };
-		3D6475D1233C5935000237FF /* InterparkGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475CE233C5935000237FF /* InterparkGothicBold.ttf */; };
-		3D6475D2233C5935000237FF /* InterparkGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475CF233C5935000237FF /* InterparkGothicLight.ttf */; };
 		3D6475D4233C5CFD000237FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475D3233C5CFD000237FF /* Assets.xcassets */; };
 		3D6475D6233C7C56000237FF /* firstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475D5233C7C56000237FF /* firstController.swift */; };
 		3D6B50A02334A924009A3407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B509F2334A924009A3407 /* AppDelegate.swift */; };
@@ -22,6 +19,9 @@
 		3D6B50AA2334A925009A3407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6B50A82334A925009A3407 /* LaunchScreen.storyboard */; };
 		3D6B50B52334A926009A3407 /* FirstSeoulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B50B42334A926009A3407 /* FirstSeoulTests.swift */; };
 		3D6B50C02334A926009A3407 /* FirstSeoulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B50BF2334A926009A3407 /* FirstSeoulUITests.swift */; };
+		3DD734BC233CDA3000DFEB12 /* InterparkGothicMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD734B9233CDA3000DFEB12 /* InterparkGothicMedium.ttf */; };
+		3DD734BD233CDA3000DFEB12 /* InterparkGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD734BA233CDA3000DFEB12 /* InterparkGothicBold.ttf */; };
+		3DD734BE233CDA3000DFEB12 /* InterparkGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD734BB233CDA3000DFEB12 /* InterparkGothicLight.ttf */; };
 		3DF1AD60233779C500A87A77 /* a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1AD5F233779C500A87A77 /* a.swift */; };
 		9B180B002338A49D005787F9 /* SeoulInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B180AFF2338A49D005787F9 /* SeoulInfo.swift */; };
 /* End PBXBuildFile section */
@@ -48,9 +48,6 @@
 		3D6475C5233B6ADA000237FF /* Milege2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milege2Controller.swift; sourceTree = "<group>"; };
 		3D6475C7233C4036000237FF /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		3D6475C9233C57FB000237FF /* DXWRbtB-KSCpc-EUC-H.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DXWRbtB-KSCpc-EUC-H.ttf"; path = "../../../../../Users/mini/Downloads/DXWRbtB-KSCpc-EUC-H.ttf"; sourceTree = "<group>"; };
-		3D6475CD233C5934000237FF /* InterparkGothicMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterparkGothicMedium.ttf; path = ../../../../../Users/mini/Downloads/interparkFont_winTTF/InterparkGothicMedium.ttf; sourceTree = "<group>"; };
-		3D6475CE233C5935000237FF /* InterparkGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterparkGothicBold.ttf; path = ../../../../../Users/mini/Downloads/interparkFont_winTTF/InterparkGothicBold.ttf; sourceTree = "<group>"; };
-		3D6475CF233C5935000237FF /* InterparkGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterparkGothicLight.ttf; path = ../../../../../Users/mini/Downloads/interparkFont_winTTF/InterparkGothicLight.ttf; sourceTree = "<group>"; };
 		3D6475D3233C5CFD000237FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trashes/501/Assets.xcassets; sourceTree = "<group>"; };
 		3D6475D5233C7C56000237FF /* firstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstController.swift; sourceTree = "<group>"; };
 		3D6B509C2334A924009A3407 /* FirstSeoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSeoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +62,9 @@
 		3D6B50BB2334A926009A3407 /* FirstSeoulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstSeoulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6B50BF2334A926009A3407 /* FirstSeoulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSeoulUITests.swift; sourceTree = "<group>"; };
 		3D6B50C12334A926009A3407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD734B9233CDA3000DFEB12 /* InterparkGothicMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterparkGothicMedium.ttf; sourceTree = "<group>"; };
+		3DD734BA233CDA3000DFEB12 /* InterparkGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterparkGothicBold.ttf; sourceTree = "<group>"; };
+		3DD734BB233CDA3000DFEB12 /* InterparkGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterparkGothicLight.ttf; sourceTree = "<group>"; };
 		3DF1AD5F233779C500A87A77 /* a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a.swift; sourceTree = "<group>"; };
 		9B180AFF2338A49D005787F9 /* SeoulInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,13 +119,13 @@
 			children = (
 				3D6475C9233C57FB000237FF /* DXWRbtB-KSCpc-EUC-H.ttf */,
 				3D6B509F2334A924009A3407 /* AppDelegate.swift */,
-				3D6475CE233C5935000237FF /* InterparkGothicBold.ttf */,
-				3D6475CF233C5935000237FF /* InterparkGothicLight.ttf */,
-				3D6475CD233C5934000237FF /* InterparkGothicMedium.ttf */,
 				3D6B50A12334A924009A3407 /* ViewController.swift */,
 				3D6B50A32334A924009A3407 /* Main.storyboard */,
 				3D6B50A82334A925009A3407 /* LaunchScreen.storyboard */,
 				3D6475D3233C5CFD000237FF /* Assets.xcassets */,
+				3DD734BA233CDA3000DFEB12 /* InterparkGothicBold.ttf */,
+				3DD734BB233CDA3000DFEB12 /* InterparkGothicLight.ttf */,
+				3DD734B9233CDA3000DFEB12 /* InterparkGothicMedium.ttf */,
 				3D6B50AB2334A925009A3407 /* Info.plist */,
 				3DF1AD5F233779C500A87A77 /* a.swift */,
 				9B180AFF2338A49D005787F9 /* SeoulInfo.swift */,
@@ -261,11 +261,11 @@
 			files = (
 				3D6475CA233C5806000237FF /* DXWRbtB-KSCpc-EUC-H.ttf in Resources */,
 				3D6B50AA2334A925009A3407 /* LaunchScreen.storyboard in Resources */,
-				3D6475D2233C5935000237FF /* InterparkGothicLight.ttf in Resources */,
 				3D6B50A52334A924009A3407 /* Main.storyboard in Resources */,
+				3DD734BC233CDA3000DFEB12 /* InterparkGothicMedium.ttf in Resources */,
+				3DD734BE233CDA3000DFEB12 /* InterparkGothicLight.ttf in Resources */,
+				3DD734BD233CDA3000DFEB12 /* InterparkGothicBold.ttf in Resources */,
 				3D6475D4233C5CFD000237FF /* Assets.xcassets in Resources */,
-				3D6475D0233C5935000237FF /* InterparkGothicMedium.ttf in Resources */,
-				3D6475D1233C5935000237FF /* InterparkGothicBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
