@@ -10,6 +10,10 @@
 		3D6475C2233B339E000237FF /* MileageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475C1233B339E000237FF /* MileageController.swift */; };
 		3D6475C6233B6ADA000237FF /* Milege2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475C5233B6ADA000237FF /* Milege2Controller.swift */; };
 		3D6475C8233C4036000237FF /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475C7233C4036000237FF /* SignUpController.swift */; };
+		3D6475CA233C5806000237FF /* DXWRbtB-KSCpc-EUC-H.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475C9233C57FB000237FF /* DXWRbtB-KSCpc-EUC-H.ttf */; };
+		3D6475D0233C5935000237FF /* InterparkGothicMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475CD233C5934000237FF /* InterparkGothicMedium.ttf */; };
+		3D6475D1233C5935000237FF /* InterparkGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475CE233C5935000237FF /* InterparkGothicBold.ttf */; };
+		3D6475D2233C5935000237FF /* InterparkGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6475CF233C5935000237FF /* InterparkGothicLight.ttf */; };
 		3D6B50A02334A924009A3407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B509F2334A924009A3407 /* AppDelegate.swift */; };
 		3D6B50A22334A924009A3407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B50A12334A924009A3407 /* ViewController.swift */; };
 		3D6B50A52334A924009A3407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6B50A32334A924009A3407 /* Main.storyboard */; };
@@ -42,6 +46,10 @@
 		3D6475C1233B339E000237FF /* MileageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileageController.swift; sourceTree = "<group>"; };
 		3D6475C5233B6ADA000237FF /* Milege2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milege2Controller.swift; sourceTree = "<group>"; };
 		3D6475C7233C4036000237FF /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		3D6475C9233C57FB000237FF /* DXWRbtB-KSCpc-EUC-H.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DXWRbtB-KSCpc-EUC-H.ttf"; path = "../../../../../Users/mini/Downloads/DXWRbtB-KSCpc-EUC-H.ttf"; sourceTree = "<group>"; };
+		3D6475CD233C5934000237FF /* InterparkGothicMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterparkGothicMedium.ttf; path = ../../../../../Users/mini/Downloads/interparkFont_winTTF/InterparkGothicMedium.ttf; sourceTree = "<group>"; };
+		3D6475CE233C5935000237FF /* InterparkGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterparkGothicBold.ttf; path = ../../../../../Users/mini/Downloads/interparkFont_winTTF/InterparkGothicBold.ttf; sourceTree = "<group>"; };
+		3D6475CF233C5935000237FF /* InterparkGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = InterparkGothicLight.ttf; path = ../../../../../Users/mini/Downloads/interparkFont_winTTF/InterparkGothicLight.ttf; sourceTree = "<group>"; };
 		3D6B509C2334A924009A3407 /* FirstSeoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSeoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6B509F2334A924009A3407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D6B50A12334A924009A3407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +115,11 @@
 		3D6B509E2334A924009A3407 /* FirstSeoul */ = {
 			isa = PBXGroup;
 			children = (
+				3D6475C9233C57FB000237FF /* DXWRbtB-KSCpc-EUC-H.ttf */,
 				3D6B509F2334A924009A3407 /* AppDelegate.swift */,
+				3D6475CE233C5935000237FF /* InterparkGothicBold.ttf */,
+				3D6475CF233C5935000237FF /* InterparkGothicLight.ttf */,
+				3D6475CD233C5934000237FF /* InterparkGothicMedium.ttf */,
 				3D6B50A12334A924009A3407 /* ViewController.swift */,
 				3D6B50A32334A924009A3407 /* Main.storyboard */,
 				3D6B50A62334A925009A3407 /* Assets.xcassets */,
@@ -244,9 +256,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6475CA233C5806000237FF /* DXWRbtB-KSCpc-EUC-H.ttf in Resources */,
 				3D6B50AA2334A925009A3407 /* LaunchScreen.storyboard in Resources */,
+				3D6475D2233C5935000237FF /* InterparkGothicLight.ttf in Resources */,
 				3D6B50A72334A925009A3407 /* Assets.xcassets in Resources */,
 				3D6B50A52334A924009A3407 /* Main.storyboard in Resources */,
+				3D6475D0233C5935000237FF /* InterparkGothicMedium.ttf in Resources */,
+				3D6475D1233C5935000237FF /* InterparkGothicBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
