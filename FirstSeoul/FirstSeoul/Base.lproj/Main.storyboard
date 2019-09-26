@@ -62,6 +62,9 @@
                                         <rect key="frame" x="161" y="0.0" width="52" height="30"/>
                                         <color key="tintColor" red="0.2156862745" green="0.69803921570000005" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Sign up"/>
+                                        <connections>
+                                            <segue destination="EbG-9j-JOn" kind="show" id="NuV-SM-5VD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -182,6 +185,61 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AW5-pC-zv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3632.8000000000002" y="-563.56821589205401"/>
+        </scene>
+        <!--Sign Up Controller-->
+        <scene sceneID="Nwr-8C-uIo">
+            <objects>
+                <viewController id="EbG-9j-JOn" customClass="SignUpController" customModule="FirstSeoul" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kEi-Z7-d1X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="cT0-Mf-Kjx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTw-Dl-c35">
+                                <rect key="frame" x="0.0" y="76" width="375" height="591"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ST6-Oe-zgu">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="로그인 화면으로 돌아가기" id="JBk-6B-3RG">
+                                        <connections>
+                                            <segue destination="2nr-od-c6x" kind="show" id="XCF-9R-xUh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ST6-Oe-zgu" firstAttribute="trailing" secondItem="qf5-mp-4aO" secondAttribute="trailing" id="1gZ-Ao-rXy"/>
+                            <constraint firstItem="cT0-Mf-Kjx" firstAttribute="top" secondItem="qf5-mp-4aO" secondAttribute="top" id="2GZ-8H-Vv3"/>
+                            <constraint firstItem="cT0-Mf-Kjx" firstAttribute="trailing" secondItem="qf5-mp-4aO" secondAttribute="trailing" id="RX4-7B-WFO"/>
+                            <constraint firstItem="sTw-Dl-c35" firstAttribute="trailing" secondItem="qf5-mp-4aO" secondAttribute="trailing" id="Rl4-F8-ZNa"/>
+                            <constraint firstItem="cT0-Mf-Kjx" firstAttribute="leading" secondItem="qf5-mp-4aO" secondAttribute="leading" id="TkS-Ma-WnL"/>
+                            <constraint firstItem="ST6-Oe-zgu" firstAttribute="leading" secondItem="qf5-mp-4aO" secondAttribute="leading" id="aVt-h4-UMp"/>
+                            <constraint firstItem="sTw-Dl-c35" firstAttribute="top" secondItem="cT0-Mf-Kjx" secondAttribute="bottom" id="gHW-35-McE"/>
+                            <constraint firstItem="sTw-Dl-c35" firstAttribute="leading" secondItem="qf5-mp-4aO" secondAttribute="leading" id="ils-jh-a1a"/>
+                            <constraint firstItem="ST6-Oe-zgu" firstAttribute="bottom" secondItem="qf5-mp-4aO" secondAttribute="bottom" id="pBX-aA-vZf"/>
+                            <constraint firstItem="sTw-Dl-c35" firstAttribute="bottom" secondItem="qf5-mp-4aO" secondAttribute="bottom" id="yae-Un-qXx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qf5-mp-4aO"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="cT0-Mf-Kjx" id="glc-B0-TEf"/>
+                        <outlet property="webView" destination="sTw-Dl-c35" id="c44-yo-NHI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B87-z3-NJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2520.8000000000002" y="-545.57721139430294"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="kfz-2W-jRP">
@@ -431,8 +489,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="&gt;" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rlk-8R-b6I">
-                                                    <rect key="frame" x="348" y="22" width="11" height="21"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="*" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rlk-8R-b6I">
+                                                    <rect key="frame" x="352.5" y="22" width="6.5" height="21"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" name="InterGTOTFL" family="InterparkGothicOTF" pointSize="18"/>
                                                     <nil key="textColor"/>

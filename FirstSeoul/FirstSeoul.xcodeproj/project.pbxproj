@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D6475C2233B339E000237FF /* MileageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475C1233B339E000237FF /* MileageController.swift */; };
 		3D6475C6233B6ADA000237FF /* Milege2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475C5233B6ADA000237FF /* Milege2Controller.swift */; };
+		3D6475C8233C4036000237FF /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6475C7233C4036000237FF /* SignUpController.swift */; };
 		3D6B50A02334A924009A3407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B509F2334A924009A3407 /* AppDelegate.swift */; };
 		3D6B50A22334A924009A3407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B50A12334A924009A3407 /* ViewController.swift */; };
 		3D6B50A52334A924009A3407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6B50A32334A924009A3407 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		3D6475C1233B339E000237FF /* MileageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileageController.swift; sourceTree = "<group>"; };
 		3D6475C5233B6ADA000237FF /* Milege2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milege2Controller.swift; sourceTree = "<group>"; };
+		3D6475C7233C4036000237FF /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		3D6B509C2334A924009A3407 /* FirstSeoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstSeoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6B509F2334A924009A3407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D6B50A12334A924009A3407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				9B180AFF2338A49D005787F9 /* SeoulInfo.swift */,
 				3D6475C1233B339E000237FF /* MileageController.swift */,
 				3D6475C5233B6ADA000237FF /* Milege2Controller.swift */,
+				3D6475C7233C4036000237FF /* SignUpController.swift */,
 			);
 			path = FirstSeoul;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				3DF1AD60233779C500A87A77 /* a.swift in Sources */,
 				3D6475C2233B339E000237FF /* MileageController.swift in Sources */,
+				3D6475C8233C4036000237FF /* SignUpController.swift in Sources */,
 				3D6B50A22334A924009A3407 /* ViewController.swift in Sources */,
 				3D6475C6233B6ADA000237FF /* Milege2Controller.swift in Sources */,
 				9B180B002338A49D005787F9 /* SeoulInfo.swift in Sources */,
